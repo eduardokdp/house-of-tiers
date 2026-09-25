@@ -58,15 +58,6 @@ export default function Flavours() {
               to any combination.
             </p>
           </div>
-
-          <div>
-            <h3 className="font-script text-3xl text-espresso mb-2">..........cd</h3>
-            <ul className="divide-y divide-espresso/10">
-              {bases.map((b) => (
-                <MenuRow key={b.name} {...b} />
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
     </section>
