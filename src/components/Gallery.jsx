@@ -1,13 +1,13 @@
 const cakes = [
-  {title: 'Raspberry Romance', tag: 'Wedding Cake', h: 'h-[25.5rem]', img: '/img/wedding-cake.jpg' },
-  {title: 'Clubhouse Bash', tag: "Kids' Birthday", h: 'h-96', img: '/img/disney-cake.jpg' },
-  {title: 'Loot Llama', tag: 'Fortnight Cake', h: 'h-96', img: '/img/loot-lama-cake.jpg' },
-  {title: 'Berry Bliss', tag: 'Fruit Cake', h: 'h-96', img: '/img/fruit-cake.jpg' },
-  {title: 'Berry Basket', tag: 'Fruit Basket', h: 'h-96', img: '/img/basket-cake.jpg' },
-  {title: 'Lucky Cherries', tag: 'Birthday Cake', h: 'h-80', img: '/img/26-cake.jpg' },
-  {title: 'Melted Wax', tag: 'Candle Cake', h: 'h-[25.5rem]', img: '/img/candle-cake.jpg' },
-  {title: 'Ogre\u2019s Delight', tag: 'Shrek Cake', h: 'h-[25.5rem]', img: '/img/shrek-cake.jpg' },
-  {title: 'First Bloom', tag: 'Floral Cake', h: 'h-[25.5rem]', img: '/img/1-cake.jpg' },
+  { title: 'Raspberry Romance', tag: 'Wedding Cake', img: '/img/wedding-cake.jpg' },
+  { title: 'Clubhouse Bash', tag: "Kids' Birthday", img: '/img/disney-cake.jpg' },
+  {title: 'Loot Llama', tag: 'Fortnight Cake', img: '/img/loot-lama-cake.jpg' },
+  {title: 'Berry Bliss', tag: 'Fruit Cake', img: '/img/fruit-cake.jpg' },
+  {title: 'Berry Basket', tag: 'Fruit Basket', h: 'h-[24rem]', img: '/img/basket-cake.jpg' },
+  {title: 'Lucky Cherries', tag: 'Birthday Cake',img: '/img/26-cake.jpg' },
+  {title: 'Melted Wax', tag: 'Candle Cake', img: '/img/candle-cake.jpg' },
+  {title: 'Ogre\u2019s Delight', tag: 'Shrek Cake',h: 'h-[24rem]', img: '/img/shrek-cake.jpg' },
+  {title: 'First Bloom', tag: 'Floral Cake', h: 'h-[23.5rem]',img: '/img/1-cake.jpg' },
 ]
 
 function PhotoSlot({cake}) {
