@@ -5,7 +5,7 @@ Built with React + Vite + Tailwind CSS.
 
 ## Live Demo
 
-*Not yet deployed — coming soon.*
+Live demo @ https://house-of-tiers.vercel.app/
 
 ## Tech Stack
 
