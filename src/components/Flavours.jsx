@@ -1,21 +1,29 @@
 const cakeFlavours = [
-  { name: 'Classic Vanilla Bean', note: 'Madagascar vanilla, tender crumb' },
-  { name: 'Rich Chocolate Fudge', note: 'Deep cocoa, moist & dense' },
-  { name: 'Lemon Poppyseed', note: 'Bright citrus, delicate speckle' },
-  { name: 'Salted Caramel', note: 'Brown butter sponge, caramel swirl' },
-  { name: 'Red Velvet', note: 'Cocoa-kissed, classic tang' },
-  { name: 'Almond Milk Cake', note: 'Soaked & tender, lightly nutty' },
+  { name: 'Chocolate', note: 'Rich and moist' },
+  { name: 'Vanilla', note: 'Classic Madagascar bean' },
+  { name: 'Confetti', note: 'Fun and colorful' },
+  { name: 'Coconut', note: '' }, 
+  { name: 'Lemon Cardamom', note: 'Zesty with a hint of spice' },
+  { name: 'Ras Malai Tres Leches', note: 'Soaked in sweet milk' },
+  { name: 'Cookies & Cream', note: 'Loaded with crushed Oreos' },
 ]
 
 const fillings = [
-  { name: 'Swiss Meringue Buttercream', note: 'Silky, lightly sweet — best for piping' },
-  { name: 'Cream Cheese', note: 'Tangy & smooth' },
-  { name: 'Chocolate Ganache', note: 'Rich, glossy drip finish' },
-  { name: 'Whipped Fresh Cream', note: 'Airy & light, fruit-forward pairing' },
+  { name: 'Berry compote', note: 'Made from scratch' },
+  { name: 'Fresh fruit', note: 'Seasonal selection' },
+  { name: 'Whipped cream', note: '' },
+  { name: 'Chocolate ganache', note: 'Dark and decadent' },
+  { name: 'Vanilla pastry cream', note: '' },
+  { name: 'Caramel', note: 'House-made salted caramel' },
+  { name: 'White chocolate hazelnut', note: '' },
+  { name: 'Whipped cream cheese', note: '' },
+  { name: 'Chocolate Crémeux', note: '' },
+  { name: 'Candied nuts', note: 'Crunchy pecans and walnuts' },
+  { name: 'Cheesecake', note: 'Baked New York style' },
 ]
 
 const frostings = [
-  { name: 'Vanilla swiss meringue buttercream', note: '' },
+  { name: 'Vanilla swiss meringue buttercream', note: 'Silky and not too sweet' },
 ]
 
 function MenuRow({ name, note }) {
@@ -72,11 +80,7 @@ export default function Flavours() {
                 <MenuRow key={f.name} {...f} />
               ))}
             </ul>
-            
-            <p className="mt-8 font-body text-sm text-espresso-soft italic">
-              Fresh berries, florals, and Lambeth piping detail can be added
-              to any combination.
-            </p>
+          
           </div>
         </div>
       </div>
