@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const TO_EMAIL = 'eduardokdp1@gmail.com'
+const TO_EMAIL = ''
 
 const eventTypes = [
   'Kid\u2019s Birthday',
